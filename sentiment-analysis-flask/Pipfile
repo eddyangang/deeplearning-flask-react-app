@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+click = "==7.1.2"
+gunicorn = "==20.0.4"
+itsdangerous = "==1.1.0"
+joblib = "==0.16.0"
+nltk = "==3.5"
+regex = "==2020.7.14"
+six = "==1.15.0"
+textblob = "==0.15.3"
+tqdm = "==4.48.2"
+Flask = "==1.1.2"
+Flask-Cors = "==3.0.8"
+Jinja2 = "==2.11.2"
+MarkupSafe = "==1.1.1"
+Werkzeug = "==1.0.1"
+
+[requires]
+python_version = "3.8"
